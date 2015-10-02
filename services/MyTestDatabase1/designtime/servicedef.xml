@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service xmlns="http://www.activegrid.com/namespaces/ServiceDefinitions/1.0" id="MyTestDatabase1" type="DataService" springFile="MyTestDatabase1.spring.xml">
+    <dataobjects>
+        <dataobject javaType="com.testmobile.mytestdatabase1.Table1">
+            <element name="id" typeRef="java.lang.Integer" isList="false" allowNull="false"/>
+        </dataobject>
+    </dataobjects>
+</service>
